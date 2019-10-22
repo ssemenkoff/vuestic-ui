@@ -45,6 +45,7 @@ export default {
 </script>
 
 <style lang="scss">
+@import "../../vuestic-sass/resources/resources";
 .va-feed {
   padding-top: .5rem;
   padding-bottom: .5rem;

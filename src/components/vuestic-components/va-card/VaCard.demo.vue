@@ -184,6 +184,16 @@
             </VbCard>
           </td>
         </tr>
+        <tr>
+          <td>Card with default title color</td>
+          <td>
+            <VbCard>
+              <va-card class="mb-0" stripe="#2C82E0" color="success" title="This should be the same color as stripe">
+                The unique stripes of zebras make them one of the animals most familiar to people. They occur in a variety of habitats, such as grasslands, savannas, woodlands, thorny scrublands, mountains, and coastal hills.
+              </va-card>
+            </VbCard>
+          </td>
+        </tr>
       </table>
     </VbCard>
   </VbDemo>

@@ -172,12 +172,12 @@ export default {
           backgroundColor: getBackgroundColor(),
           borderColor: this.isActive ? this.$themes['primary'] : 'transparent',
         }
-      } else return {}
+      } else return { }
     },
     iconStyles () {
       return (this.isHovered || this.isActive)
         ? { color: this.$themes['primary'] }
-        : { color: 'white' }
+        : { }
     },
   },
 }

@@ -25,6 +25,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import "../../vuestic-sass/resources/resources";
+
 .va-social-news {
   &__text-with-button {
     padding-bottom: 1.5rem;

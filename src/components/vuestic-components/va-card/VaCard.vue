@@ -22,7 +22,7 @@
         <slot name="header">
           <div
             class="va-card__header-title"
-            :style="{color: this.titleOnImage ? 'white' : this.$themes.info}"
+            :class="this.titleOnImage ? 'va-card__header-title--on-image' : ''"
           >
             {{ title }}
           </div>
@@ -149,6 +149,10 @@ export default {
       letter-spacing: $card-title-letter-spacing;
       text-transform: uppercase;
       color: $card-title-color;
+
+      &--on-image {
+        color: $card-title-color-on-image;
+      }
     }
 
     &-actions {

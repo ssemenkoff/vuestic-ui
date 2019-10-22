@@ -127,7 +127,7 @@ export default {
   align-items: center;
   text-decoration: none;
   border-left: .25rem solid transparent;
-  color: rgba(255, 255, 255, 0.65);
+  color: $sidebar-link-color;
 
   &__content {
 
